@@ -2,7 +2,7 @@
 problem Statement:AI-Based SOAP Note Segmentation from Audio
 Automated Clinical Note Generation Using Speech Transcription and NLP
 
-Overview:
+# Overview:
 his project implements an AI-powered medical transcription system that converts audio or video consultations into structured SOAP (Subjective, Objective, Assessment, Plan) notes automatically.
 
 The system takes a recorded patient–receptionist or patient–doctor conversation, performs:
@@ -16,7 +16,7 @@ SOAP segmentation to organize the text into a structured, interpretable medical 
 All generated results, including the transcript and SOAP components, are stored in a downloadable Excel file for easy review and integration with hospital record systems.
 
 
-Key Features (Point-wise Explanation)
+# Key Features (Point-wise Explanation)
 
 🎙️ Audio/Video Upload
 
@@ -60,10 +60,11 @@ Detects if a file with the same name has been previously processed.
 
 Automatically updates the existing record instead of creating duplicates, ensuring data consistency.
 
-Future works:
+# Future Goals:
+# Problem Statement:
 IntelliSOAP — AI-Powered Real-Time Medical Documentation System
 Transforming Clinical Workflows Through Intelligent, Voice-Driven SOAP Note Generation
-Overview:
+# Overview:
 
 IntelliSOAP is an advanced AI-driven clinical documentation assistant that captures, analyzes, and summarizes patient–receptionist conversations in real time to automatically generate structured SOAP (Subjective, Objective, Assessment, Plan) notes.
 
@@ -78,7 +79,7 @@ Retrieves contextual data from Electronic Health Records (EHR), including lab re
 Synthesizes a complete, doctor-ready SOAP note before the call is concluded.
 
 This enables clinicians to review well-organized, data-enriched summaries within seconds, saving valuable consultation time and improving clinical decision-making accuracy.
-System Features (Point-wise Explanation)
+# System Features (Point-wise Explanation)
 
 🎙️ Real-Time Voice Data Capture
 
@@ -134,7 +135,7 @@ Fully compliant with HIPAA (U.S.) and GDPR (EU) healthcare data protection stand
 
 Employs role-based access control to prevent unauthorized access.
 
-🧩 Technology Stack (Layer-wise Breakdown)
+# 🧩 Technology Stack (Layer-wise Breakdown)
 
 🎧 Voice Interface:
 
